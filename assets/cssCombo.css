@@ -1,0 +1,21 @@
+#mycb{
+font-family:ECO;
+  direction: rtl;
+font-size:50px;
+border-radius:25px;
+background:white;
+}
+
+
+#mycb > option {
+  direction: rtl;
+font-size:20px;
+
+background:grey;
+font-family:ECO;
+}
+
+#mycb > select {
+ background-color: transparent;
+} 
+

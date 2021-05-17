@@ -1,0 +1,87 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>פרופסור טיים</title>
+    <link rel="icon" href="Photo/pro_1.png" />
+    <meta name="description" content="name of game" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="names" />
+
+    <!-- CSS -->
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <!--הקוד שמפעיל את תפריט הניווט-->
+    <script src="jScripts/myScript.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <!--קישור לדף עצמו כדי להתחיל את המשחק מחדש בלחיצה על הלוגו-->
+            <a href="ProfessorTime.html">
+
+                <img id="logo" src="Photo/pro_1.png" />    <!--הלוגו של המשחק-->
+
+                <p>פרופסור טיים</p>
+            </a>
+            <!--תפריט הניווט בראש העמוד-->
+            <nav>
+                <ul>
+                    <li><a class="about">אודות</a></li>
+                    <li><a class="howToPlay">איך משחקים?</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--אודות-->
+        <div id="aboutDiv" class="popUp bounceInDown hide">
+            <a class="closeAbout">
+                <img id="x_pic" src="Photo/X.png"/>
+            </a>
+
+            <h1>פרופסור טיים</h1>
+            <p id="odot1">אפיון ופיתוח: ספיר אשר, מור גרין ומור צפני </p>
+            <p id="odot2">
+                אופיין ופותח במסגרת פרויקט בקורסים: <br />
+                סביבות לימוד אינטראקטיביות 1 +תכנות אינטראקטיבי 1   <br />
+                תשפ"א
+            </p>
+            <p>
+                <img id="logo_hit" src="Photo/hit_2.png" />
+
+                <img id="gif_hodot" src="Photo/gif_hodot.gif" />
+                <a id="telem" href="https://www.hit.ac.il/telem/overview" target="_blank">הפקולטה לטכנולוגיות למידה </a>
+            </p>
+               
+    
+        </div>
+
+        <!--כיצד משחקים-->
+        <div id="howToPlayDiv" class="popUp bounceInDown hide">
+            <a class="closeHowToPlay">
+                <img id="x_pic2" src="Photo/X.png" />
+            </a>
+
+            <h1>אז איך  משחקים</h1>
+            <p id="how_play">
+                בחרו בתשובה הנכונה לשאלה וכך תקבלו את המפתח <br /> שיפתח את התיבה עם חלק מהמכונה! <br /> גררו אל המכונה את החלק ועברו אל השאלה הבאה. <br /> בכדי לנצח את המשחק יש להשיג את כל חלקי המכונה ולהרכיבה מחדש <br /> <br /> הפרופסור מחכה, בהצלחה!
+                <img id="gif" src="Photo/gif_how_to_play.gif" />
+            </p>                     
+        </div>
+
+        <div id="gameArea" class="">
+            <!--src = הקישור של דף המשחק שלכם (לא קובץ האנימייט)-->
+            <iframe id="gameIframe" src="13.02.html" frameBorder="0" allowfullscreen="">Browser not compatible.</iframe>
+        </div>
+    </div>
+</body>
+
+</html>
